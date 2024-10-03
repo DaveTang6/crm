@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="kkcrm" default="copydata">
+
+
+  <target name="copydata"  description="Copy files">
+	<echo message="Copy files"/>
+	<delete dir="/www/wwwroot/kkcrm.saillingtech.com/assets"/>
+	<copy todir="/www/wwwroot/kkcrm.saillingtech.com" >
+		<fileset dir="${basedir}/dist"/>
+	</copy>
+ </target>
+</project>
+
