@@ -34,7 +34,7 @@ After this, if you want to run the development mode:
 npm run dev
 ```
 
-If you want to package the production version.".
+If you want to package the production version:
 
 ```bash
 npm run build
@@ -51,5 +51,7 @@ composer install
 Read and edit the environment specific `kkcrmio/config/app_local.php` and setup the 
 `'Datasources'` and any other configuration relevant for your application.
 Other environment agnostic settings can be changed in `config/app.php`.
+
+Edit the file `kkcrm/config/config.js` and setup API url, Upload url and file path.
 
 

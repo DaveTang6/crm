@@ -3,16 +3,16 @@ const configDev = {
 	updateURL: 'http://127.0.0.1/kkcrm/kkcrmio/Commons/updateFile',
 	filePath: 'http://127.0.0.1/kkcrm/kkcrmio/files/',
 	payStatus: {
-		0: '未通过',
-		1: '已通过'
+		0: 'Not Approved',
+		1: 'Approved'
 	},
 	orderType: {
-		0: '定金',
-		1: '全款'
+		0: 'Deposit',
+		1: 'Full Payment'
 	},
 	settleStatus: {
-		0: '未结算',
-		1: '已结算'
+		0: 'Unsettled',
+		1: 'Settled'
 	}
 }
 
@@ -21,16 +21,16 @@ const configPrd = {
 	updateURL: 'http://kkcrm.saillingtech.com:8721/io/Commons/updateFile',
 	filePath: 'http://kkcrm.saillingtech.com:8721/io/files/',
 	payStatus: {
-		0: '未通过',
-		1: '已通过'
+		0: 'Not Approved',
+		1: 'Approved'
 	},
 	orderType: {
-		0: '定金',
-		1: '全款'
+		0: 'Deposit',
+		1: 'Full Payment'
 	},
 	settleStatus: {
-		0: '未结算',
-		1: '已结算'
+		0: 'Unsettled',
+		1: 'Settled'
 	}
 }
 
